@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Om Vyas — Data Analyst · Builder · Community Leader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Lora:ital,wght@0,300;0,400;0,500;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- CURSOR GLOW -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">Om Vyas</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="theme-btn" id="themeBtn" title="Toggle theme">🌙</button>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+    <div class="menu-btn" id="menuBtn" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span></span>
+      <span>Available for opportunities</span>
+    </div>
+    <h1 class="hero-title">
+      I build, analyze<br>
+      &amp; grow <span class="grad">communities.</span>
+    </h1>
+    <p class="hero-sub">
+      Data Analyst · Tech Enthusiast · Community Builder. Turning raw numbers into decisions, and ideas into products people actually use.
+    </p>
+    <div class="hero-tags">
+      <span class="hero-tag">Data Analysis</span>
+      <span class="hero-tag">Python</span>
+      <span class="hero-tag">Firebase</span>
+      <span class="hero-tag">AI Tools</span>
+      <span class="hero-tag">Event Management</span>
+      <span class="hero-tag">GDG on Campus</span>
+    </div>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">
+        <span>View Projects</span>
+        <span>→</span>
+      </a>
+      <a href="#contact" class="btn-outline">
+        <span>Contact Me</span>
+        <span>↗</span>
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">3<span>+</span></div>
+        <div class="hero-stat-label">Communities Led</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">500<span>+</span></div>
+        <div class="hero-stat-label">Event Participants</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">10<span>+</span></div>
+        <div class="hero-stat-label">Projects Built</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-inner">
+    <p class="section-label reveal">Technical Arsenal</p>
+    <h2 class="section-title reveal">Skills &amp; Tools</h2>
+    <p class="section-sub reveal">From raw data pipelines to deployed products — a craftsman's toolkit built through building real things.</p>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EVENTS -->
+<section id="events">
+  <div class="section-inner">
+    <p class="section-label reveal">Impact &amp; Scale</p>
+    <h2 class="section-title reveal">Event Management</h2>
+    <p class="section-sub reveal">Designing experiences that push technical limits and bring communities together at scale.</p>
+    <div class="events-carousel-wrap reveal">
+      <div class="events-track-outer">
+        <div class="events-track" id="eventsTrack">
+
+          <!-- 1. TechQuest Arena -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,var(--amber),var(--gold))"></div>
+            <div class="event-img-slot">
+              <img src="images/photo1.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">⚔️</div>
+                <div class="event-img-placeholder-text">photo1.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">GDG · TechnoLab</span>
+              <h3 class="event-title">TechQuest Arena: Clash of Logic</h3>
+              <p class="event-desc">High-stakes competitive tech event — algorithmic challenges, rapid-fire problem solving, and team strategy. Designed full experience architecture as Lead Organizer.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">200<span style="color:var(--cyan)">+</span></div><div class="metric-label">Participants</div></div>
+                <div class="metric"><div class="metric-num">3</div><div class="metric-label">Rounds</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Quiz Design</span><span class="etag">Lead</span></div>
+            </div>
+          </div>
+
+          <!-- 2. TechnoLab Launch -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,#d4a03c,#e8b84b)"></div>
+            <div class="event-img-slot">
+              <img src="images/photo2.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">🚀</div>
+                <div class="event-img-placeholder-text">photo2.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">TechnoLab · Founding</span>
+              <h3 class="event-title">TechnoLab Launch Event</h3>
+              <p class="event-desc">Founded and launched TechnoLab — a hands-on builder club. Drove branding, speaker onboarding, live demos, and community sign-ups from scratch.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">120<span style="color:var(--cyan)">+</span></div><div class="metric-label">Attendees</div></div>
+                <div class="metric"><div class="metric-num">1</div><div class="metric-label">Club Born</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Launch</span><span class="etag">Lead</span></div>
+            </div>
+          </div>
+
+          <!-- 3. Intro to Game Dev -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,#c8960c,#e8c050)"></div>
+            <div class="event-img-slot">
+              <img src="images/photo3.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">🎮</div>
+                <div class="event-img-placeholder-text">photo3.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">TechnoLab · Workshop</span>
+              <h3 class="event-title">Intro to Game Development</h3>
+              <p class="event-desc">Beginner-friendly Unity workshop — participants built their first playable prototype live in a single session. Organized and hosted end-to-end.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">80<span style="color:var(--cyan)">+</span></div><div class="metric-label">Participants</div></div>
+                <div class="metric"><div class="metric-num">1</div><div class="metric-label">Game Live</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Unity</span><span class="etag">Workshop</span></div>
+            </div>
+          </div>
+
+          <!-- 4. Career in Cyber Security -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,#b05a2a,#d4803c)"></div>
+            <div class="event-img-slot">
+              <img src="images/photo4.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">🔐</div>
+                <div class="event-img-placeholder-text">photo4.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">GDG · TechnoLab</span>
+              <h3 class="event-title">Career in Cyber Security</h3>
+              <p class="event-desc">Industry panel on cybersecurity careers — ethical hacking, SOC roles, CEH/OSCP paths. Brought domain experts and managed the full event flow.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">100<span style="color:var(--cyan)">+</span></div><div class="metric-label">Attendees</div></div>
+                <div class="metric"><div class="metric-num">3</div><div class="metric-label">Speakers</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Panel</span><span class="etag">CyberSec</span></div>
+            </div>
+          </div>
+
+          <!-- 5. GDGoC Inauguration -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,#d4a03c,#e8b84b,#f5cc6a,#d4903c)"></div>
+            <div class="event-img-slot">
+              <img src="images/photo5.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">🌐</div>
+                <div class="event-img-placeholder-text">photo5.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">GDG on Campus · Inaugural</span>
+              <h3 class="event-title">GDGoC Inauguration</h3>
+              <p class="event-desc">Official launch of the GDG on Campus chapter. Managed logistics, hosting, registration, and the full live program as Lead Organizer.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">150<span style="color:var(--cyan)">+</span></div><div class="metric-label">Attendees</div></div>
+                <div class="metric"><div class="metric-num">1</div><div class="metric-label">Chapter</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Google</span><span class="etag">Host</span></div>
+            </div>
+          </div>
+
+          <!-- 6. Cloud Campaign -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,#d4a03c,#c8960c)"></div>
+            <div class="event-img-slot">
+              <img src="images/photo6.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">☁️</div>
+                <div class="event-img-placeholder-text">photo6.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">GDG on Campus · Campaign</span>
+              <h3 class="event-title">Cloud Campaign</h3>
+              <p class="event-desc">Multi-week Google Cloud campaign — Skills Boost labs, info sessions, and leaderboard challenges. Organized awareness drives across campus.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">90<span style="color:var(--cyan)">+</span></div><div class="metric-label">Participants</div></div>
+                <div class="metric"><div class="metric-num">4</div><div class="metric-label">Weeks</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Google Cloud</span><span class="etag">Campaign</span></div>
+            </div>
+          </div>
+
+          <!-- 7. Internship Fair -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,#b8960c,#d4a03c)"></div>
+            <div class="event-img-slot">
+              <img src="images/photo7.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">💼</div>
+                <div class="event-img-placeholder-text">photo7.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">GDG · TechnoLab</span>
+              <h3 class="event-title">Internship Fair</h3>
+              <p class="event-desc">Student-to-industry networking fair with resume workshops, mock interviews, and live pitching. Helped students land their first tech opportunities.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">130<span style="color:var(--cyan)">+</span></div><div class="metric-label">Students</div></div>
+                <div class="metric"><div class="metric-num">8<span style="color:var(--cyan)">+</span></div><div class="metric-label">Companies</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Career</span><span class="etag">Networking</span></div>
+            </div>
+          </div>
+
+          <!-- 8. Web3 Summit -->
+          <div class="event-card">
+            <div class="event-card-accent" style="background:linear-gradient(90deg,#e8b84b,#d4a03c,#c8960c)"></div>
+            <div class="event-img-slot">
+              <img src="images/photo8.jpg" alt="Event photo" class="event-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+              <div class="event-img-placeholder" style="display:none;">
+                <div class="event-img-placeholder-icon">⛓️</div>
+                <div class="event-img-placeholder-text">photo8.jpg</div>
+              </div>
+            </div>
+            <div class="event-card-body">
+              <span class="event-org-badge">GDG · TechnoLab</span>
+              <h3 class="event-title">Web3 Summit — ETH 101 &amp; Avalanche</h3>
+              <p class="event-desc">Full-day Web3 deep-dive: MST Block sessions, ETH 101 workshop, and live Avalanche Hackathon. Teams pitched dApp prototypes by end of day.</p>
+              <div class="event-metrics">
+                <div class="metric"><div class="metric-num">75<span style="color:var(--cyan)">+</span></div><div class="metric-label">Participants</div></div>
+                <div class="metric"><div class="metric-num">3</div><div class="metric-label">Sessions</div></div>
+              </div>
+              <div class="event-tags"><span class="etag">Web3</span><span class="etag">Avalanche</span></div>
+            </div>
+          </div>
+
+        </div><!-- /track -->
+      </div><!-- /outer -->
+
+      <!-- Controls -->
+      <div class="carousel-controls">
+        <div class="carousel-dots" id="carouselDots"></div>
+        <div style="display:flex;align-items:center;gap:20px">
+          <span class="carousel-counter"><span id="carouselCurrent">1</span> / <span id="carouselTotal">4</span></span>
+          <div class="carousel-arrows">
+            <button class="carousel-arrow" id="arrowPrev" title="Previous">←</button>
+            <button class="carousel-arrow" id="arrowNext" title="Next">→</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTENT CREATION -->
+<section id="content">
+  <div class="section-inner">
+    <p class="section-label reveal">Voice &amp; Presence</p>
+    <h2 class="section-title reveal">Content Creation</h2>
+    <p class="section-sub reveal">Building a consistent, authentic digital presence across platforms — tech insights, event coverage, and community storytelling.</p>
+    <div class="content-grid">
+      <div class="feed-mock reveal">
+        <div class="feed-post">
+          <div class="feed-header">
+            <div class="feed-avatar">OV</div>
+            <div>
+              <div class="feed-meta-name">Om Vyas</div>
+              <div class="feed-meta-handle">@om_builds · 2h</div>
+            </div>
+          </div>
+          <p class="feed-text">Just wrapped TechQuest Arena — 200+ participants, 3 intense rounds, zero crashes (we tested everything thrice 😅). This is what happens when you treat an event like a product launch. Thread 🧵↓</p>
+          <div class="feed-actions">
+            <span class="feed-act">❤️ 142</span>
+            <span class="feed-act">🔁 38</span>
+            <span class="feed-act">💬 24</span>
+          </div>
+        </div>
+        <div class="feed-post">
+          <div class="feed-header">
+            <div class="feed-avatar">OV</div>
+            <div>
+              <div class="feed-meta-name">Om Vyas</div>
+              <div class="feed-meta-handle">@om_builds · 1d</div>
+            </div>
+          </div>
+          <p class="feed-text">GoalCraft AI is now live ✅ — an AI-powered goal tracking app built with Firebase + Gemini. Set goals, get intelligent nudges, stay accountable. Link in bio.</p>
+          <div class="feed-actions">
+            <span class="feed-act">❤️ 214</span>
+            <span class="feed-act">🔁 61</span>
+            <span class="feed-act">💬 31</span>
+          </div>
+        </div>
+        <div class="feed-post">
+          <div class="feed-header">
+            <div class="feed-avatar">OV</div>
+            <div>
+              <div class="feed-meta-name">Om Vyas</div>
+              <div class="feed-meta-handle">@om_builds · 3d</div>
+            </div>
+          </div>
+          <p class="feed-text">Why every data analyst should know Firebase in 2025: real-time data, no backend to manage, serverless — perfect for prototyping insights dashboards at lightning speed. Here's how I use it 👇</p>
+          <div class="feed-actions">
+            <span class="feed-act">❤️ 178</span>
+            <span class="feed-act">🔁 52</span>
+            <span class="feed-act">💬 19</span>
+          </div>
+        </div>
+      </div>
+      <div class="content-stats reveal">
+        <div class="cstat-card">
+          <div class="cstat-icon">✍️</div>
+          <div>
+            <div class="cstat-num" data-target="48">0</div>
+            <div class="cstat-label">Posts Published</div>
+          </div>
+        </div>
+        <div class="cstat-card">
+          <div class="cstat-icon">👥</div>
+          <div>
+            <div class="cstat-num" data-target="1200">0</div>
+            <div class="cstat-label">Combined Followers</div>
+          </div>
+        </div>
+        <div class="cstat-card">
+          <div class="cstat-icon">📈</div>
+          <div>
+            <div class="cstat-num" data-target="8500">0</div>
+            <div class="cstat-label">Monthly Impressions</div>
+          </div>
+        </div>
+        <div class="cstat-card">
+          <div class="cstat-icon">🔗</div>
+          <div>
+            <div class="cstat-num" data-target="3">0</div>
+            <div class="cstat-label">Platforms Active</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- COMMUNITY -->
+<section id="community">
+  <div class="section-inner">
+    <p class="section-label reveal">Impact &amp; Leadership</p>
+    <h2 class="section-title reveal">Community Builder</h2>
+    <p class="section-sub reveal">Three ecosystems. One philosophy — build people up, and the tech takes care of itself.</p>
+
+    <!-- ROW 1: TechnoLab (featured full-width left) + GDGoC (right) -->
+    <div class="community-hero-row">
+
+      <!-- 1. TechnoLab — FEATURED LARGE CARD -->
+      <div class="comm-card-featured reveal">
+        <div class="comm-glow-bg"></div>
+        <div class="comm-glow-bg2"></div>
+        <div class="comm-img-slot">
+          <img src="images/photo9.jpg" alt="Community photo" class="comm-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="comm-img-placeholder">
+            <div class="event-img-placeholder-icon">📸</div>
+            <div class="event-img-placeholder-text">photo9.jpg</div>
+          </div>
+        </div>
+        <div class="comm-top-row">
+          <div class="comm-logo comm-logo-tl">🔬</div>
+          <span class="comm-status-pill active">Active · Lead</span>
+        </div>
+        <div class="comm-org-tag">Campus Tech Club · Est. 2024</div>
+        <div class="comm-name comm-name-lg">TechnoLab</div>
+        <span class="comm-role-badge comm-role-lead">⚡ Club Lead</span>
+        <p class="comm-desc-text comm-desc-lg">
+          Founded and lead TechnoLab — a hands-on builder community where students stop watching tutorials and start shipping real things. As Club Lead, I own everything: vision, events, culture, and the roster of builders who show up every week ready to make something.
+        </p>
+        <ul class="comm-list">
+          <li>Launched the club from zero, established brand identity and onboarding flow</li>
+          <li>Organized 8+ technical workshops, build nights, and guest speaker sessions</li>
+          <li>Mentored members through their first GitHub PRs, Firebase deploys, and hackathon submissions</li>
+          <li>Curated a cross-disciplinary team spanning dev, design, data, and Web3</li>
+        </ul>
+        <div class="comm-impact-row">
+          <div class="comm-impact-pill">
+            <span class="comm-impact-num">100<span style="font-size:1rem">+</span></span>
+            <span class="comm-impact-label">Members</span>
+          </div>
+          <div class="comm-impact-pill">
+            <span class="comm-impact-num">8<span style="font-size:1rem">+</span></span>
+            <span class="comm-impact-label">Events Run</span>
+          </div>
+          <div class="comm-impact-pill">
+            <span class="comm-impact-num">3</span>
+            <span class="comm-impact-label">Domains</span>
+          </div>
+        </div>
+        <div class="comm-quote">
+          "I don't just run TechnoLab — I built it to outlast me. The culture of shipping beats the culture of spectating."
+        </div>
+        <div class="comm-tags" style="margin-top:20px">
+          <span class="comm-tag">Builder Culture</span>
+          <span class="comm-tag">Club Lead</span>
+          <span class="comm-tag">Workshops</span>
+          <span class="comm-tag">Mentorship</span>
+          <span class="comm-tag">Hackathons</span>
+        </div>
+      </div>
+
+      <!-- 2. GDGoC — SIDE CARD -->
+      <div class="comm-card-side reveal">
+        <div class="comm-accent-line" style="background:linear-gradient(90deg,#d4a03c,#e8b84b,#f5cc6a,#d4903c)"></div>
+        <div class="comm-img-slot">
+          <img src="images/photo10.jpg" alt="Community photo" class="comm-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="comm-img-placeholder">
+            <div class="event-img-placeholder-icon">📸</div>
+            <div class="event-img-placeholder-text">photo10.jpg</div>
+          </div>
+        </div>
+        <div class="comm-top-row">
+          <div class="comm-logo comm-logo-gdg">🌐</div>
+          <span class="comm-status-pill active">Active · Organiser</span>
+        </div>
+        <div class="comm-org-tag">Google Developer Groups · Campus Chapter</div>
+        <div class="comm-name comm-name-sm">GDG on Campus</div>
+        <span class="comm-role-badge comm-role-org">🌐 Core Organiser</span>
+        <p class="comm-desc-text comm-desc-sm">
+          Core organizer of the official Google Developer Group chapter on campus. I drive campaigns, coordinate events under Google's developer programs, and connect students with the global GDG ecosystem — from Cloud Study Jams to Solution Challenges.
+        </p>
+        <ul class="comm-list">
+          <li>Co-organized the chapter inauguration, Cloud Campaign, and Web3 Summit</li>
+          <li>Managed cross-team logistics for 5+ GDG-certified events</li>
+          <li>Grew chapter engagement by 40% through structured campaigns</li>
+          <li>Liaison between campus community and Google's developer relations team</li>
+        </ul>
+        <div class="comm-impact-row">
+          <div class="comm-impact-pill">
+            <span class="comm-impact-num">5<span style="font-size:1rem">+</span></span>
+            <span class="comm-impact-label">Events</span>
+          </div>
+          <div class="comm-impact-pill">
+            <span class="comm-impact-num">40<span style="font-size:1rem">%</span></span>
+            <span class="comm-impact-label">Growth</span>
+          </div>
+          <div class="comm-impact-pill">
+            <span class="comm-impact-num">150<span style="font-size:1rem">+</span></span>
+            <span class="comm-impact-label">Members</span>
+          </div>
+        </div>
+        <div class="comm-tags">
+          <span class="comm-tag">Google Dev</span>
+          <span class="comm-tag">Campaigns</span>
+          <span class="comm-tag">Cloud</span>
+          <span class="comm-tag">Web3</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ROW 2: PU DAO — Full-width featured card with Web3 flavour -->
+    <div class="community-bottom-row">
+      <div class="comm-card-side reveal" style="grid-column:1/-1;flex-direction:row;gap:40px;align-items:flex-start;padding:40px">
+        <div class="comm-accent-line" style="background:linear-gradient(90deg,#e8b84b,#d4803c,#c8960c)"></div>
+        <div style="flex-shrink:0">
+          <div class="comm-img-slot" style="width:160px;height:120px;border-radius:12px;margin-bottom:16px;">
+            <img src="images/photo11.jpg" alt="Community photo" class="comm-static-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="comm-img-placeholder">
+              <div class="event-img-placeholder-icon">📸</div>
+              <div class="event-img-placeholder-text">photo11.jpg</div>
+            </div>
+          </div>
+          <div class="comm-logo comm-logo-dao" style="width:80px;height:80px;font-size:2.2rem;border-radius:22px;margin-bottom:20px">⛓️</div>
+          <div class="comm-impact-row" style="flex-direction:column;gap:10px;margin-bottom:0">
+            <div class="comm-impact-pill" style="align-items:flex-start">
+              <span class="comm-impact-num">Web3</span>
+              <span class="comm-impact-label">Focus Area</span>
+            </div>
+            <div class="comm-impact-pill" style="align-items:flex-start">
+              <span class="comm-impact-num">DAO</span>
+              <span class="comm-impact-label">Structure</span>
+            </div>
+            <div class="comm-impact-pill" style="align-items:flex-start">
+              <span class="comm-impact-num">PU</span>
+              <span class="comm-impact-label">Campus-rooted</span>
+            </div>
+          </div>
+        </div>
+        <div style="flex:1">
+          <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:8px">
+            <div>
+              <div class="comm-org-tag">Decentralized Autonomous Organisation · Parul University</div>
+              <div class="comm-name comm-name-lg">PU DAO</div>
+            </div>
+            <span class="comm-status-pill active">Active · Contributor</span>
+          </div>
+          <span class="comm-role-badge comm-role-contrib">⛓️ Active Contributor</span>
+          <p class="comm-desc-text comm-desc-lg" style="max-width:640px">
+            Active contributor at PU DAO — one of the first student-run Decentralized Autonomous Organisations on campus. Engaged in blockchain education, Web3 project incubation, and on-chain governance experiments that push the boundary of what a campus community can be.
+          </p>
+          <ul class="comm-list" style="column-count:2;column-gap:32px;display:block">
+            <li style="display:flex;align-items:flex-start;gap:10px;font-size:.85rem;color:var(--muted);line-height:1.6;margin-bottom:10px"><span style="color:var(--violet2);font-weight:700;flex-shrink:0">→</span>Contributing to blockchain literacy initiatives and ETH 101 sessions on campus</li>
+            <li style="display:flex;align-items:flex-start;gap:10px;font-size:.85rem;color:var(--muted);line-height:1.6;margin-bottom:10px"><span style="color:var(--violet2);font-weight:700;flex-shrink:0">→</span>Participated in Avalanche hackathon as part of the DAO's builder cohort</li>
+            <li style="display:flex;align-items:flex-start;gap:10px;font-size:.85rem;color:var(--muted);line-height:1.6;margin-bottom:10px"><span style="color:var(--violet2);font-weight:700;flex-shrink:0">→</span>Bridging Web2 developer community (GDG, TechnoLab) with Web3 ecosystem</li>
+            <li style="display:flex;align-items:flex-start;gap:10px;font-size:.85rem;color:var(--muted);line-height:1.6;margin-bottom:10px"><span style="color:var(--violet2);font-weight:700;flex-shrink:0">→</span>Exploring DeFi, smart contracts, and decentralized governance as a learning builder</li>
+          </ul>
+          <div class="comm-tags" style="margin-top:8px">
+            <span class="comm-tag" style="background:rgba(212,160,60,.12);border-color:rgba(212,160,60,.25);color:#e8b84b">Blockchain</span>
+            <span class="comm-tag" style="background:rgba(212,160,60,.12);border-color:rgba(212,160,60,.25);color:#e8b84b">Ethereum</span>
+            <span class="comm-tag" style="background:rgba(212,160,60,.12);border-color:rgba(212,160,60,.25);color:#e8b84b">Avalanche</span>
+            <span class="comm-tag" style="background:rgba(212,160,60,.12);border-color:rgba(212,160,60,.25);color:#e8b84b">Web3</span>
+            <span class="comm-tag" style="background:rgba(212,160,60,.12);border-color:rgba(212,160,60,.25);color:#e8b84b">DAO</span>
+            <span class="comm-tag" style="background:rgba(212,160,60,.12);border-color:rgba(212,160,60,.25);color:#e8b84b">DeFi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- COMMUNICATION -->
+<section id="communication">
+  <div class="section-inner">
+    <p class="section-label reveal">Soft Power</p>
+    <h2 class="section-title reveal">Communication Skills</h2>
+    <p class="section-sub reveal">The code ships. The data speaks. But the real leverage is in communicating both with clarity and confidence.</p>
+    <div class="comm-skills-grid">
+      <div class="cskill-card reveal">
+        <span class="cskill-icon">🎤</span>
+        <div class="cskill-name">Public Speaking</div>
+        <p class="cskill-desc">From campus stages to tech panels — delivering technical and non-technical talks with clarity, confidence, and conviction.</p>
+        <div class="cskill-glow"></div>
+      </div>
+      <div class="cskill-card reveal">
+        <span class="cskill-icon">🎬</span>
+        <div class="cskill-name">Event Hosting</div>
+        <p class="cskill-desc">MC-ing and hosting 10+ technical and cultural events — keeping energy up, managing flow, and making audiences feel part of something.</p>
+        <div class="cskill-glow"></div>
+      </div>
+      <div class="cskill-card reveal">
+        <span class="cskill-icon">🤝</span>
+        <div class="cskill-name">Team Collaboration</div>
+        <p class="cskill-desc">Cross-functional coordination across tech, design, and marketing teams — translating between builders and non-builders.</p>
+        <div class="cskill-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS (FIREBASE-POWERED) -->
+<section id="projects">
+  <div class="section-inner">
+    <p class="section-label reveal">Shipped &amp; Live</p>
+    <h2 class="section-title reveal">Projects</h2>
+    <p class="section-sub reveal">Real problems. Real solutions. Built in public, deployed to production.</p>
+    <div id="featuredProjectSlot"></div>
+    <div class="projects-grid" id="projectsGrid">
+      <div class="proj-loader">
+        <div class="spinner"></div>
+        <span>Loading from Firebase…</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- BUILD IN PUBLIC -->
+<section id="build">
+  <div class="section-inner">
+    <p class="section-label reveal">Transparency &amp; Growth</p>
+    <h2 class="section-title reveal">Build in Public</h2>
+    <p class="section-sub reveal">Every milestone, pivot, and lesson — shared openly. The journey is part of the product.</p>
+    <div class="journey-timeline" id="journeyTimeline"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <p class="section-label reveal">Let's Connect</p>
+    <h2 class="section-title reveal">Get In Touch</h2>
+    <div class="contact-layout">
+      <div class="contact-info reveal">
+        <p style="color:var(--muted);font-size:.95rem;line-height:1.8;max-width:400px">
+          Whether it's a collaboration, a project idea, an event, or just a conversation about data and community — I'm all in. Messages stored securely in Firebase.
+        </p>
+        <div class="social-links">
+          <a href="https://linkedin.com/in/omvyas" target="_blank" class="social-btn">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://twitter.com/om_builds" target="_blank" class="social-btn">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            <span>Twitter / X</span>
+          </a>
+          <a href="https://github.com/omvyas" target="_blank" class="social-btn">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;margin-top:8px">
+          <div style="display:flex;align-items:center;gap:12px;color:var(--muted);font-size:.9rem">
+            <span style="color:var(--violet2)">📧</span>
+            <span>om@omvyas.dev</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:12px;color:var(--muted);font-size:.9rem">
+            <span style="color:var(--violet2)">📍</span>
+            <span>India · Open to remote</span>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input class="form-input" type="text" id="contactName" placeholder="e.g. Priya Sharma" required/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input class="form-input" type="email" id="contactEmail" placeholder="you@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" id="contactMsg" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <div class="form-msg" id="formMsg"></div>
+          <button type="submit" class="form-submit" id="formSubmit">
+            <span id="submitText">Send Message</span>
+            <span>→</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© 2025 Om Vyas. All rights reserved.</div>
+  <div class="footer-love">Built with <span>♥</span> &amp; Firebase · No generic templates harmed.</div>
+</footer>
+
+<!-- ─── FIREBASE SDK ──────────────────────────────────────────────────── -->
+<script type="module">
+// ═══════════════════════════════════════════════════════════════════
+//  🔥 FIREBASE CONFIGURATION
+//  Replace with your actual Firebase project config from:
+//  Firebase Console → Project Settings → Your Apps → SDK setup
+// ═══════════════════════════════════════════════════════════════════
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import {
+  getFirestore, collection, getDocs,
+  addDoc, serverTimestamp, query, orderBy
+} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js";
+
+const firebaseConfig = {
+  apiKey:            "YOUR_API_KEY",
+  authDomain:        "YOUR_PROJECT.firebaseapp.com",
+  projectId:         "YOUR_PROJECT_ID",
+  storageBucket:     "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId:             "YOUR_APP_ID",
+  measurementId:     "YOUR_MEASUREMENT_ID"
+};
+
+// SEED DATA — pre-populated if Firestore is empty
+const SEED_PROJECTS = [
+  {
+    id:"goalcraft",
+    title:"GoalCraft AI",
+    description:"An AI-powered personal goal tracking platform. Users set goals, receive intelligent daily nudges via Gemini AI, and track streaks. Built end-to-end on Firebase with a React frontend.",
+    stack:["React","Firebase","Gemini AI","Tailwind CSS","Firestore"],
+    github:"https://github.com/omvyas/goalcraft-ai",
+    live:"https://goalcraft-ai.web.app",
+    icon:"🎯",
+    featured:true
+  },
+  {
+    id:"sheetiq",
+    title:"Sheet IQ",
+    description:"Natural language interface for Google Sheets. Describe what analysis you want and get back formulas, pivot logic, and visualisation suggestions — powered by Claude + Apps Script.",
+    stack:["Google Apps Script","Python","Anthropic Claude","Sheets API"],
+    github:"https://github.com/omvyas/sheet-iq",
+    live:"https://sheetiq.app",
+    icon:"📊",
+    featured:true
+  },
+  {
+    id:"urbanpad",
+    name:"Urban Pad",
+    title:"Urban Pad",
+    description:"A modern, tech-driven platform designed to simplify urban living — helping users discover, manage, and optimize their living spaces and daily lifestyle. Built to solve real-world urban problems through smart organization, accessibility, and user-centric design.",
+    techStack:["React","Firebase","Firestore","Tailwind CSS","Node.js"],
+    stack:["React","Firebase","Firestore","Tailwind CSS","Node.js"],
+    link:"https://urbanpad.app",
+    live:"https://urbanpad.app",
+    github:"https://github.com/omvyas/urban-pad",
+    icon:"🏙️",
+    featured:true,
+    flagship:true
+  }
+];
+
+const SEED_JOURNEY = [
+  {date:"Jan 2025",title:"Launched GoalCraft AI",body:"Shipped my first full-stack AI app publicly. 0 → 100 users in 2 weeks without paid ads.",order:1},
+  {date:"Nov 2024",title:"Led TechQuest Arena",body:"Designed and ran a 200+ participant competitive tech event from scratch. Zero prior experience running events at this scale.",order:2},
+  {date:"Sep 2024",title:"Joined GDG on Campus Core",body:"Became part of the organizing team. Started coordinating campaigns, workshops, and the chapter's online presence.",order:3},
+  {date:"Jul 2024",title:"Built Sheet IQ",body:"Scratched my own itch — I was tired of googling formulas. Built an NLP-to-formula tool that actually works.",order:4},
+  {date:"Apr 2024",title:"Started Building in Public",body:"Committed to sharing every project, failure, and lesson on Twitter. Changed how I think about making things.",order:5},
+];
+
+// ── INIT ────────────────────────────────────────────────────────────
+let db, analytics;
+try {
+  const app = initializeApp(firebaseConfig);
+  db = getFirestore(app);
+  analytics = getAnalytics(app);
+  logEvent(analytics, 'portfolio_visit');
+} catch(e) {
+  console.warn("Firebase init failed — running with seed data.", e.message);
+}
+
+// ── LOAD PROJECTS ───────────────────────────────────────────────────
+async function loadProjects() {
+  const grid    = document.getElementById("projectsGrid");
+  const featSlot = document.getElementById("featuredProjectSlot");
+  let projects  = [];
+
+  try {
+    if (db) {
+      const snap = await getDocs(query(collection(db,"projects"), orderBy("featured","desc")));
+      if (!snap.empty) snap.forEach(d => projects.push({id:d.id,...d.data()}));
+    }
+  } catch(e) { console.warn("Using seed data:", e.message); }
+
+  if (!projects.length) projects = SEED_PROJECTS;
+
+  // Separate flagship from regular
+  const flagship = projects.find(p => p.flagship || p.id === "urbanpad");
+  const regular  = projects.filter(p => !p.flagship && p.id !== "urbanpad");
+
+  // ── Render flagship Urban Pad card ──────────────────────────────
+  if (flagship) {
+    const stack = (flagship.techStack || flagship.stack || []);
+    featSlot.innerHTML = `
+      <div class="proj-flagship proj-flagship--animate">
+        <!-- animated glow orbs -->
+        <div class="flagship-orb flagship-orb-1"></div>
+        <div class="flagship-orb flagship-orb-2"></div>
+        <div class="flagship-orb flagship-orb-3"></div>
+
+        <!-- left: meta -->
+        <div class="flagship-left">
+          <div class="flagship-badge">
+            <span class="flagship-badge-dot"></span>
+            Featured Project
+          </div>
+          <div class="flagship-icon-wrap">
+            <span class="flagship-icon">${flagship.icon||"🏙️"}</span>
+            <div class="flagship-icon-ring"></div>
+          </div>
+          <div class="flagship-preview">
+            <div class="fp-bar-row"><span class="fp-bar fp-bar-long"></span><span class="fp-bar fp-bar-short"></span></div>
+            <div class="fp-bar-row"><span class="fp-bar fp-bar-med"></span><span class="fp-bar fp-bar-long"></span></div>
+            <div class="fp-card-mock">
+              <div class="fp-mock-dot"></div><div class="fp-mock-dot fp-mock-dot-2"></div><div class="fp-mock-dot fp-mock-dot-3"></div>
+              <div class="fp-mock-line"></div><div class="fp-mock-line fp-mock-line-2"></div>
+            </div>
+            <div class="fp-bar-row"><span class="fp-bar fp-bar-short"></span><span class="fp-bar fp-bar-long"></span><span class="fp-bar fp-bar-med"></span></div>
+          </div>
+        </div>
+
+        <!-- right: content -->
+        <div class="flagship-right">
+          <div class="flagship-name">${flagship.title||flagship.name}</div>
+          <p class="flagship-desc">${flagship.description}</p>
+
+          <div class="flagship-features">
+            <div class="ff-item"><span class="ff-dot"></span>Smart listing &amp; discovery system</div>
+            <div class="ff-item"><span class="ff-dot"></span>Clean, intuitive urban UI</div>
+            <div class="ff-item"><span class="ff-dot"></span>Convenience-first architecture</div>
+            <div class="ff-item"><span class="ff-dot"></span>Scalable modern infrastructure</div>
+          </div>
+
+          <div class="flagship-stack">
+            ${stack.map(t=>`<span class="flagship-tag">${t}</span>`).join('')}
+          </div>
+
+          <div class="flagship-actions">
+            ${flagship.live?`<a href="${flagship.live}" target="_blank" class="flagship-btn-primary">
+              <span>Live Demo</span><span class="btn-arrow">↗</span>
+            </a>`:''}
+            ${flagship.github?`<a href="${flagship.github}" target="_blank" class="flagship-btn-outline">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              <span>View Code</span>
+            </a>`:''}
+          </div>
+        </div>
+      </div>
+    `;
+    // Make flagship visible immediately (it's above the fold)
+    requestAnimationFrame(() => {
+      const el = featSlot.querySelector('.proj-flagship');
+      if (el) { el.classList.add('visible'); }
+    });
+  }
+
+  // ── Render regular project cards ────────────────────────────────
+  const gitSvg = `<svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>`;
+
+  grid.innerHTML = regular.map(p => `
+    <div class="proj-card reveal">
+      <div class="proj-header">
+        <div class="proj-icon">${p.icon||"🚀"}</div>
+        <div class="proj-links">
+          ${p.github?`<a href="${p.github}" target="_blank" class="proj-link" title="GitHub">${gitSvg}</a>`:''}
+          ${p.live?`<a href="${p.live}" target="_blank" class="proj-link" title="Live Demo">↗</a>`:''}
+        </div>
+      </div>
+      <div class="proj-title">${p.title}</div>
+      <p class="proj-desc">${p.description}</p>
+      <div class="proj-stack">${(p.stack||[]).map(t=>`<span class="stack-tag">${t}</span>`).join('')}</div>
+    </div>
+  `).join('');
+
+  initReveal();
+}
+
+// ── LOAD JOURNEY ────────────────────────────────────────────────────
+async function loadJourney() {
+  const container = document.getElementById("journeyTimeline");
+  let items = [];
+
+  try {
+    if (db) {
+      const snap = await getDocs(query(collection(db,"journey"), orderBy("order","asc")));
+      if (!snap.empty) snap.forEach(d => items.push({id:d.id,...d.data()}));
+    }
+  } catch(e) {}
+
+  if (!items.length) items = SEED_JOURNEY;
+
+  container.innerHTML = items.map(item => `
+    <div class="journey-item reveal">
+      <div class="journey-date">${item.date}</div>
+      <div class="journey-title">${item.title}</div>
+      <p class="journey-desc">${item.body}</p>
+    </div>
+  `).join('');
+
+  initReveal();
+}
+
+// ── CONTACT FORM ────────────────────────────────────────────────────
+document.getElementById("contactForm").addEventListener("submit", async e => {
+  e.preventDefault();
+  const btn = document.getElementById("formSubmit");
+  const msg = document.getElementById("formMsg");
+  const text = document.getElementById("submitText");
+
+  btn.disabled = true;
+  text.textContent = "Sending…";
+  msg.className = "form-msg";
+  msg.style.display = "none";
+
+  const payload = {
+    name:      document.getElementById("contactName").value,
+    email:     document.getElementById("contactEmail").value,
+    message:   document.getElementById("contactMsg").value,
+    timestamp: serverTimestamp()
+  };
+
+  try {
+    if (db) {
+      await addDoc(collection(db,"messages"), payload);
+    }
+    if (analytics) logEvent(analytics, 'contact_form_submit');
+    msg.textContent = "✅ Message sent! I'll get back to you soon.";
+    msg.className = "form-msg success";
+    e.target.reset();
+  } catch(err) {
+    msg.textContent = "⚠️ Couldn't send right now. Try emailing directly.";
+    msg.className = "form-msg error";
+    console.error(err);
+  } finally {
+    btn.disabled = false;
+    text.textContent = "Send Message";
+  }
+});
+
+// ── KICK OFF ────────────────────────────────────────────────────────
+loadProjects();
+loadJourney();
+</script>
+
+<!-- ─── VANILLA JS ────────────────────────────────────────────────────── -->
+<script>
+// ── SKILLS DATA ─────────────────────────────────────────────────────
+const SKILLS = [
+  {icon:"📊",name:"Data Analysis",desc:"Turning messy datasets into decision-ready insights with Python, SQL, and visualization.",pct:90},
+  {icon:"🐍",name:"Python",desc:"Pandas, NumPy, Matplotlib, automation scripts, and data pipelines built for real workflows.",pct:85},
+  {icon:"🔥",name:"Firebase",desc:"Firestore, Auth, Hosting, Functions — full Firebase stack from prototype to production.",pct:82},
+  {icon:"🌐",name:"Web Development",desc:"React, HTML/CSS, responsive UI/UX. Shipping polished interfaces end-to-end.",pct:78},
+  {icon:"🤖",name:"AI Tools",desc:"Prompt engineering, Gemini API, Claude, building AI-native features into products.",pct:80},
+  {icon:"📉",name:"Data Visualization",desc:"Tableau, Power BI, custom D3 charts — making numbers speak at a glance.",pct:75},
+];
+
+const grid = document.getElementById("skillsGrid");
+grid.innerHTML = SKILLS.map(s => `
+  <div class="skill-card reveal">
+    <div class="skill-icon">${s.icon}</div>
+    <div class="skill-name">${s.name}</div>
+    <p class="skill-desc">${s.desc}</p>
+    <div class="skill-bar-wrap"><div class="skill-bar" data-pct="${s.pct}"></div></div>
+    <div class="skill-pct">${s.pct}%</div>
+  </div>
+`).join('');
+
+// ── REVEAL ON SCROLL ─────────────────────────────────────────────────
+function initReveal() {
+  const els = document.querySelectorAll('.reveal:not(.visible)');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => {
+          e.target.classList.add('visible');
+          // animate skill bars
+          e.target.querySelectorAll('.skill-bar').forEach(bar => {
+            bar.style.width = bar.dataset.pct + '%';
+          });
+          // animate counters
+          e.target.querySelectorAll('[data-target]').forEach(el => {
+            animateCount(el, +el.dataset.target);
+          });
+          obs.unobserve(e.target);
+        }, i * 80);
+      }
+    });
+  }, {threshold:0.12});
+  els.forEach(el => obs.observe(el));
+}
+initReveal();
+
+// ── COUNTER ANIMATION ────────────────────────────────────────────────
+function animateCount(el, target) {
+  let start = 0;
+  const dur = 1600;
+  const step = timestamp => {
+    if (!start) start = timestamp;
+    const prog = Math.min((timestamp - start)/dur, 1);
+    const ease = 1 - Math.pow(1-prog, 3);
+    el.textContent = Math.floor(ease * target).toLocaleString();
+    if (prog < 1) requestAnimationFrame(step);
+    else el.textContent = target.toLocaleString();
+  };
+  requestAnimationFrame(step);
+}
+
+// ── THEME TOGGLE ──────────────────────────────────────────────────────
+const themeBtn = document.getElementById('themeBtn');
+let dark = true;
+themeBtn.addEventListener('click', () => {
+  dark = !dark;
+  document.documentElement.setAttribute('data-theme', dark ? '' : 'light');
+  themeBtn.textContent = dark ? '🌙' : '☀️';
+});
+
+// ── MOBILE MENU ───────────────────────────────────────────────────────
+document.getElementById('menuBtn').addEventListener('click', () => {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+
+// ── CURSOR GLOW ───────────────────────────────────────────────────────
+const glow = document.getElementById('cursorGlow');
+document.addEventListener('mousemove', e => {
+  glow.style.left = e.clientX + 'px';
+  glow.style.top  = e.clientY + 'px';
+});
+
+// ── NAV SCROLL SHADOW ────────────────────────────────────────────
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('nav');
+  nav.style.background = window.scrollY > 60
+    ? 'rgba(15,13,9,.95)'
+    : 'rgba(15,13,9,.75)';
+});
+
+// ── IMAGE UPLOAD HANDLER ─────────────────────────────────────────────
+function loadEventImg(input) {
+  const slot = input.closest('.event-img-slot');
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    // Remove placeholder & hint
+    slot.querySelector('.event-img-placeholder').style.display = 'none';
+    slot.querySelector('.event-img-upload-hint').style.display = 'none';
+    // Insert or replace image
+    let img = slot.querySelector('img');
+    if (!img) { img = document.createElement('img'); slot.appendChild(img); }
+    img.src = e.target.result;
+    img.alt = 'Event photo';
+  };
+  reader.readAsDataURL(file);
+}
+
+// ── EVENTS CAROUSEL ───────────────────────────────────────────────────
+(function(){
+  const track    = document.getElementById('eventsTrack');
+  const dotsWrap = document.getElementById('carouselDots');
+  const prevBtn  = document.getElementById('arrowPrev');
+  const nextBtn  = document.getElementById('arrowNext');
+  const curEl    = document.getElementById('carouselCurrent');
+  const totEl    = document.getElementById('carouselTotal');
+
+  if (!track) return;
+
+  const cards   = Array.from(track.querySelectorAll('.event-card'));
+  const total   = cards.length;
+  const perView = () => window.innerWidth <= 640 ? 1 : window.innerWidth <= 1100 ? 2 : 3;
+  let   current = 0;
+
+  function totalPages(){ return Math.ceil(total / perView()); }
+
+  function buildDots(){
+    dotsWrap.innerHTML = '';
+    const p = totalPages();
+    totEl.textContent = p;
+    for(let i = 0; i < p; i++){
+      const d = document.createElement('button');
+      d.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+      d.addEventListener('click', () => goTo(i));
+      dotsWrap.appendChild(d);
+    }
+  }
+
+  function goTo(idx){
+    const p  = totalPages();
+    const pv = perView();
+    current  = Math.max(0, Math.min(idx, p - 1));
+
+    const gap    = 20;
+    const outer  = track.parentElement.offsetWidth;
+    const cardW  = (outer - gap * (pv - 1)) / pv;
+
+    // set card widths precisely
+    cards.forEach(c => { c.style.flex = `0 0 ${cardW}px`; });
+
+    track.style.transform = `translateX(-${current * pv * (cardW + gap)}px)`;
+
+    curEl.textContent  = current + 1;
+    prevBtn.disabled   = current === 0;
+    nextBtn.disabled   = current >= p - 1;
+
+    dotsWrap.querySelectorAll('.carousel-dot').forEach((d, i) => {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  prevBtn.addEventListener('click', () => goTo(current - 1));
+  nextBtn.addEventListener('click', () => goTo(current + 1));
+
+  // touch / swipe
+  let touchStartX = 0;
+  track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, {passive:true});
+  track.addEventListener('touchend',   e => {
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 50) goTo(dx < 0 ? current + 1 : current - 1);
+  });
+
+  // keyboard nav when events section is visible
+  document.addEventListener('keydown', e => {
+    const sec = document.getElementById('events');
+    if (!sec) return;
+    const r = sec.getBoundingClientRect();
+    if (r.top < window.innerHeight && r.bottom > 0){
+      if (e.key === 'ArrowRight') goTo(current + 1);
+      if (e.key === 'ArrowLeft')  goTo(current - 1);
+    }
+  });
+
+  // auto-play every 5s
+  let timer = setInterval(() => {
+    if (current >= totalPages() - 1) goTo(0);
+    else goTo(current + 1);
+  }, 5000);
+
+  // pause on hover
+  track.addEventListener('mouseenter', () => clearInterval(timer));
+  track.addEventListener('mouseleave', () => {
+    timer = setInterval(() => {
+      if (current >= totalPages() - 1) goTo(0);
+      else goTo(current + 1);
+    }, 5000);
+  });
+
+  buildDots();
+  goTo(0);
+  window.addEventListener('resize', () => { buildDots(); goTo(0); });
+})();
+</script>
+</body>
+</html>
